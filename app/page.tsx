@@ -15,8 +15,8 @@ export default function Home() {
 
       <h1>Memories, widgets for Strava</h1>
       <p className={styles.quote}>
-        "Love the app. Only just got into running this year, and it's really
-        motivational to be reminder of my past efforts" — Andy
+        &ldquo;Love the app. Only just got into running this year, and it&apos;s
+        really motivational to be reminder of my past efforts&rdquo; — Andy
       </p>
       <DownloadButton />
     </main>
