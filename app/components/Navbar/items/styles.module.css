@@ -1,19 +1,27 @@
 .homeLink {
-    font-size: 1.5rem;
-    font-weight:500;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .themeSwitch {
-    border: 0;
-    background: none;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  border: 0;
+  background: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.themeSwitchLight {
+  filter: invert(0%);
+}
+
+.themeSwitchDark {
+  filter: invert(100%);
 }
 
 .navItem {
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
