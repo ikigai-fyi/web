@@ -1,27 +1,24 @@
-import Link from "next/link";
-
+import HomeLink from "./items/HomeLink";
+import ThemeSwitch from "./items/ThemeSwitch";
+import OutLink from "./items/OutLink";
 export default function Navbar() {
   return (
     <nav>
       <ul>
         <li>
-          <Link href="/">Memories</Link>
+          <HomeLink />
         </li>
         <li>
-          <button>Theme</button>
+          <ThemeSwitch />
         </li>
         <li>
-          <a href="mailto:vincent.ballet@me.com" title="Contact">
-            Contact
-          </a>
+          <OutLink url="mailto:vincent.ballet@me.com" title="Contact" />
         </li>
         <li>
-          <a
-            href="https://apps.apple.com/us/app/memories-widget-for-strava/id6448870765"
+          <OutLink
+            url="https://apps.apple.com/us/app/memories-widget-for-strava/id6448870765"
             title="Download"
-          >
-            Download
-          </a>
+          />
         </li>
       </ul>
     </nav>
