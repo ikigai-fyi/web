@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
+import DownloadButton from "./components/DownloadButton/DownloadButton";
 
 export default function Home() {
   return (
@@ -17,9 +18,7 @@ export default function Home() {
         "Love the app. Only just got into running this year, and it's really
         motivational to be reminder of my past efforts" — Andy
       </p>
-      <a href="https://apps.apple.com/us/app/memories-widget-for-strava/id6448870765">
-        Download
-      </a>
+      <DownloadButton />
     </main>
   );
 }
