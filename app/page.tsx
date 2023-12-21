@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <div className="flex min-h-screen flex-col items-center p-24">
       <Image
         className="rounded-3xl"
         src="/memories-icon.png"
@@ -15,6 +15,6 @@ export default function Home() {
       <h1>Memories, widgets for Strava</h1>
 
       <Link href="/admin">Go to admin</Link>
-    </main>
+    </div>
   );
 }
