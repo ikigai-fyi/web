@@ -1,3 +1,5 @@
+import styles from "./styles.module.css";
+
 export default function ThemeSwitch() {
-  return <button>Theme switch</button>;
+  return <button className={styles.navItem}>Theme switch</button>;
 }

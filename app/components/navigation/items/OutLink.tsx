@@ -1,3 +1,5 @@
+import styles from "./styles.module.css";
+
 type OutLinkProps = {
   title: string;
   url: string;
@@ -5,7 +7,7 @@ type OutLinkProps = {
 
 export default function OutLink({ title, url }: OutLinkProps) {
   return (
-    <a href={url} title={title}>
+    <a className={styles.navItem} href={url} title={title}>
       {title}
     </a>
   );
