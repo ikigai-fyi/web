@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <div>
       <Image
-        className="rounded-3xl"
         src="/memories-icon.png"
         alt="Memories icon"
         width={100}

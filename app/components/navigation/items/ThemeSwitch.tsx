@@ -9,6 +9,7 @@ export default function ThemeSwitch() {
     <button
       className={styles.navItem}
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+      suppressHydrationWarning
     >
       {theme === "light" ? "Light" : "Dark"}
     </button>
