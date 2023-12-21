@@ -1,6 +1,7 @@
 import Image from "next/image";
-import styles from "./styles.module.css";
+
 import DownloadButton from "./components/DownloadButton/DownloadButton";
+import styles from "./styles.module.css";
 
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
-import HomeLink from "./items/HomeLink";
-import ThemeSwitch from "./items/ThemeSwitch";
-import OutLink from "./items/OutLink";
 import Spacer from "../Spacer/Spacer";
+import HomeLink from "./items/HomeLink";
+import OutLink from "./items/OutLink";
+import ThemeSwitch from "./items/ThemeSwitch";
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {
