@@ -4,6 +4,8 @@ import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/navigation/Navbar";
+import { ThemeProvider } from "./components/ThemeProvider";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,15 +19,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <header>
-          <Navbar />
-        </header>
-        <main>{children}</main>
-        <footer></footer>
-        <SpeedInsights />
-        <Analytics />
+        <ThemeProvider>
+          <header>
+            <Navbar />
+          </header>
+          <main>{children}</main>
+          <footer></footer>
+          <SpeedInsights />
+          <Analytics />
+        </ThemeProvider>
       </body>
     </html>
   );

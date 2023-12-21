@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center p-24">
+    <div>
       <Image
         className="rounded-3xl"
         src="/memories-icon.png"

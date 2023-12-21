@@ -1,16 +1,16 @@
 "use client";
 
-import { useState } from "react";
 import styles from "./styles.module.css";
+import { useTheme } from "next-themes";
 
 export default function ThemeSwitch() {
-  const [isLightMode, setLightMode] = useState(true);
+  const { theme, setTheme } = useTheme();
   return (
     <button
       className={styles.navItem}
-      onClick={() => setLightMode(!isLightMode)}
+      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >
-      {isLightMode ? "Light" : "Dark"}
+      {theme === "light" ? "Light" : "Dark"}
     </button>
   );
 }
