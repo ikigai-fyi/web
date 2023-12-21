@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.spacer {
+    flex-grow: 1;
+  }

@@ -14,3 +14,8 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
 }
+
+a {
+  color: rgb(var(--foreground-rgb));
+  text-decoration: none;
+}

@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 
 export default function HomeLink() {
   return (
-    <Link className={styles.navItem} href="/">
+    <Link className={`${styles.navItem} ${styles.homeLink}`} href="/">
       Memories
     </Link>
   );
