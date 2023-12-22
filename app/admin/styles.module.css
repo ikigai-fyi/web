@@ -1,0 +1,9 @@
+.title {
+  padding-left: 48px;
+}
+
+.container {
+  display: flex;
+  gap: 36px;
+  padding: 36px;
+}
