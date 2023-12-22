@@ -6,17 +6,17 @@
     rgb(249, 59, 122),
     rgb(154, 94, 247)
   );
-  line-height: 0;
   padding-left: 28px;
   padding-right: 28px;
-  padding-top: 16px;
+  padding-top: 12px;
 }
 
 .title {
-  font-weight: 300;
+  width: 100%;
 }
 
 .content {
   font-weight: bold;
   font-size: 2.5rem;
+  line-height: 0;
 }
